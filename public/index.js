@@ -18,6 +18,12 @@ document.addEventListener('DOMContentLoaded', function () {
     const songTimestamp = localStorage.getItem('songStamp');
     const songCover = localStorage.getItem('songCover');
 
+    // fetch('content/config/styles.json')
+    // .then(response => response.json())
+    // .then(data => {
+    //     console.log(data[0].name);
+    // })
+
     if(songSrc){
         audioPlayer.src = songSrc;
         if(songTimestamp) audioPlayer.currentTime = songTimestamp;

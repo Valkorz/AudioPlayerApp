@@ -1,0 +1,15 @@
+[
+    {
+        "id":0,
+        "name":"Crimson Sunset",
+        "background-image":"../backgrounds/sunset.jpg",
+        "button-color": "#3d3d3d",
+        "button-color-hover":"#696969",
+        "ui-color-1": "#666666",
+        "ui-color-2": "#2e2e2e",
+        "background-color": "#2a292e"
+    },
+    {
+        "id":0
+    }
+]
