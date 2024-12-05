@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     overflow: hidden;
     width: 500px;
     height: 500px;
@@ -18,13 +19,13 @@
 
 .settingsDToggle{
     width: 100%;
-    height: 200px;
+    height: 64px;
+    justify-content: right;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
-    background-color: var(--button-color);
-    background-image: url('content/icons/arrowRight.png');
+    background-color: var(--button-color);  
 }
 
-.settingsDToggle{
+.settingsDToggle:active{
     background-color: var(--button-color-hover);
     box-shadow: 4px 4px 4px rgba(0,0,0,0.4);
 }
@@ -32,6 +33,11 @@
 .settingsDToggle #dBtnIcon{
     width: 64px;
     height: 64px;
+    left: 80%;
     background: none;
-    background-color: var(--ui-color-1);
+}
+
+.settingsContent{
+    position: absolute;
+    visibility: hidden;
 }
