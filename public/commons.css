@@ -1,0 +1,62 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    --gradient-a: rgb(69, 233, 104);
+    --gradient-b: rgb(5, 99, 28);
+
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+:root{
+    --ui-color-1: #666666;
+    --ui-color-2: #2e2e2e;
+    --button-color: #3d3d3d;
+    --button-color-hover: #696969;
+    --background-color: #2a292e;
+}
+
+.istok-web-regular {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.istok-web-bold {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.istok-web-regular-italic {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.istok-web-bold-italic {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.josefin-sans-regular {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h3, h4, h5, h6{
+    font-family: 'Istok Web', sans-serif;
+}

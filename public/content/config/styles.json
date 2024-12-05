@@ -10,6 +10,13 @@
         "background-color": "#2a292e"
     },
     {
-        "id":0
+        "id":1,
+        "name":"Rose Mountain",
+        "background-image":"../backgrounds/mountain.jpg",
+        "button-color":"#FBCEEA",
+        "button-color-hover":"#EE89CD",
+        "ui-color-1":"#F57DC5",
+        "ui-color-2":"#706CCB",
+        "background-color":"#339FC5"
     }
 ]

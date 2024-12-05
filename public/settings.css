@@ -1,0 +1,37 @@
+.settingsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    background-color: var(--ui-color-1);
+}
+
+.settingsDropDown{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}   
+
+.settingsDToggle{
+    width: 100%;
+    height: 200px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+    background-color: var(--button-color);
+    background-image: url('content/icons/arrowRight.png');
+}
+
+.settingsDToggle{
+    background-color: var(--button-color-hover);
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.4);
+}
+
+.settingsDToggle #dBtnIcon{
+    width: 64px;
+    height: 64px;
+    background: none;
+    background-color: var(--ui-color-1);
+}
